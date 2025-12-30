@@ -1,0 +1,6 @@
+{
+    "dataset": "breast_cancer",
+    "best_s": 1.2551941181944049,
+    "best_T": 50,
+    "best_val_accuracy": 0.9736842105263158
+}

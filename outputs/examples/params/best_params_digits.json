@@ -1,0 +1,6 @@
+{
+    "dataset": "digits",
+    "best_s": 4.177894112381037,
+    "best_T": 50,
+    "best_val_accuracy": 0.9777777777777777
+}

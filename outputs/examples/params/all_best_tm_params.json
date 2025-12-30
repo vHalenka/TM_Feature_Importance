@@ -1,0 +1,57 @@
+{
+    "ionosphere": {
+        "best_s": 19.823132438317366,
+        "best_T": 200,
+        "best_val_accuracy": 0.9859154929577465
+    },
+    "wine": {
+        "best_s": 9.703617838900827,
+        "best_T": 800,
+        "best_val_accuracy": 1.0
+    },
+    "vehicle": {
+        "best_s": 1.174905417848271,
+        "best_T": 50,
+        "best_val_accuracy": 0.8058823529411765
+    },
+    "steel": {
+        "best_s": 8.335530695136503,
+        "best_T": 50,
+        "best_val_accuracy": 0.7994858611825193
+    },
+    "sonar": {
+        "best_s": 3.3003606726935004,
+        "best_T": 50,
+        "best_val_accuracy": 0.9285714285714286
+    },
+    "pima": {
+        "best_s": 8.632933468212304,
+        "best_T": 50,
+        "best_val_accuracy": 0.7727272727272727
+    },
+    "iris": {
+        "best_s": 14.799313764574787,
+        "best_T": 300,
+        "best_val_accuracy": 1.0
+    },
+    "heart": {
+        "best_s": 3.3206932694399938,
+        "best_T": 300,
+        "best_val_accuracy": 0.5555555555555556
+    },
+    "glass": {
+        "best_s": 13.098064756180484,
+        "best_T": 50,
+        "best_val_accuracy": 0.8372093023255814
+    },
+    "digits": {
+        "best_s": 6.922610957899009,
+        "best_T": 50,
+        "best_val_accuracy": 0.9833333333333333
+    },
+    "breast_cancer": {
+        "best_s": 18.330381129983834,
+        "best_T": 500,
+        "best_val_accuracy": 0.9649122807017544
+    }
+}

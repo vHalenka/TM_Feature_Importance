@@ -1,0 +1,6 @@
+{
+    "dataset": "iris",
+    "best_s": 17.52870148284442,
+    "best_T": 50,
+    "best_val_accuracy": 1.0
+}

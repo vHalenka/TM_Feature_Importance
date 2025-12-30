@@ -16,7 +16,7 @@ build/
 .ipynb_checkpoints
 *.ipynb
 
-# Results and outputs - exclude generated files
+# Results and outputs - exclude generated files (but allow outputs/examples/)
 *.png
 *.jpg
 *.jpeg
@@ -33,12 +33,24 @@ build/
 *.npz
 *.mat
 
-# Model files and results
+# Model files and results - exclude bulk outputs but allow examples
+outputs/figures/
+outputs/params/
+outputs/results/
+outputs/logs/
+_local_only/
 ROAD_Models/
 ROAD_results/
 results/
-outputs/
 runs/
+
+# Legacy scripts (not actively used)
+legacy/
+
+# But DO track examples for GitHub
+!outputs/examples/
+!outputs/examples/**/*.png
+!outputs/examples/**/*.json
 
 # IDE
 .vscode/
@@ -59,4 +71,9 @@ logs/
 # Backup files
 *_backup.py
 * copy.py
+
+# Documentation files (all-caps markdown files)
+/[A-Z_]*\.md
+REORGANIZATION_SUMMARY.md
+TEST_RESULTS.md
 
