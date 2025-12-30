@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Results and outputs - exclude generated files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.svg
+
+# Data files
+*.csv
+*.json
+*.pkl
+*.h5
+*.npy
+*.npz
+*.mat
+
+# Model files and results
+ROAD_Models/
+ROAD_results/
+results/
+outputs/
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*_backup.py
+* copy.py
+
