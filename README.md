@@ -1,4 +1,6 @@
-# TM Feature Selection
+# TM_Feature_selection
+
+Different Feature Selection techniques on different datasets and with different evaluation protocols.
 
 This project compares different feature selection techniques on various datasets using Tsetlin Machines for evaluation. The main focus is on understanding how different feature selection methods perform when evaluated with Tsetlin Machine classifiers.
 
@@ -64,4 +66,3 @@ The experiments generate various plots and metrics comparing:
 - ROAD mask curves
 
 Note: Generated results (plots, JSON files) are excluded from the repository.
-
