@@ -154,10 +154,6 @@ All outputs are organized in the `outputs/` directory:
 - **Parameters**: `outputs/params/{type}/`
 - **Results**: `outputs/results/experiments/`
 
-Bulk artifacts are stored in `_local_only/` (not tracked by git).
-
-A curated subset of example outputs is in `outputs/examples/` for GitHub visibility.
-
 ## Feature Selection Methods Evaluated
 
 **Filter Methods:**
@@ -221,11 +217,3 @@ When adding new experiments:
 1. Use utilities from `src/utils/` for data loading, preprocessing
 2. Use `src/utils/paths.py` for output paths
 3. Follow the workflow: HPO → Experiments → Visualization
-
-## License
-
-[Add your license information here]
-
-## Citation
-
-[Add citation information if applicable]
